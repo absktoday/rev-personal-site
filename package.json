@@ -1,0 +1,37 @@
+{
+    "name": "rev-personal-site",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@astrojs/tailwind": "^4.0.0",
+        "@fontsource/pacifico": "^5.0.4",
+        "astro": "^2.8.0",
+        "tailwindcss": "^3.3.2"
+    },
+    "prettier": {
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 100,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "none",
+        "useTabs": false,
+        "vueIndentScriptAndStyle": false,
+        "rangeStart": 0
+    }
+}
