@@ -8,7 +8,7 @@ import '@fontsource/pacifico';
         <div class="max-w-3xl mx-auto text-slate-700">
             <p>Hi, I'm</p>
 
-            <h1 class="block absk-name text-4xl font-medium mt-2 pt-1">Abhishek</h1>
+            <h1 class="block absk-name text-6xl font-medium mt-2 pt-1">Abhishek</h1>
 
             <p class="mt-4">
                 I am a full stack software engineer. Software Engineer at StrongKey, Inc.
@@ -21,12 +21,12 @@ import '@fontsource/pacifico';
             <p class="mt-1">
                 I've extensive experience in building applications which make use of public key
                 cryptography, hardware based encryption, secure access using WebAuthn/FIDO2 using
-                digital certificates, TPMs/HSMs and secure element.
+                secure element, TPMs/HSMs and digital certificates.
             </p>
 
             <p class="mt-1">
                 Apart from that, I have expereince in enterprise grade software integration and
-                deloying including testing, decumentaiton, deployment, support issues, monitoring,
+                deloying including testing, documentation, deployment, support issues, monitoring,
                 logging, alerting, etc.
             </p>
 
@@ -57,11 +57,19 @@ import '@fontsource/pacifico';
 </Layout>
 
 <style>
+    /* Register your custom font family and tell the browser where to find it. */
+    @font-face {
+        font-family: 'SuperDuper';
+        src: url('/fonts/AH_SuperDuper-Bold.otf');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
     .absk-name {
         background-image: var(--accent-gradient);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-position: 0%;
-        font-family: 'Pacifico', sans-serif;
+        font-family: 'SuperDuper', sans-serif;
     }
 </style>
